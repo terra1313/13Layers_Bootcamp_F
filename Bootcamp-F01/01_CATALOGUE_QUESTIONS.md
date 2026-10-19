@@ -5,7 +5,7 @@
 **Module :** F01 — Git & GitHub  
 **Organisme :** 13Layers Academy  
 **Type d'évaluation :** Questionnaire individuel  
-**Objectif :** Vérifier la compréhension des concepts fondamentaux de Git et GitHub avant de passer aux prochaines étapes de la roadmap DevOps.
+**Objectif :** Vérifier la compréhension des concepts fondamentaux de Git et GitHub avant de passer aux prochaines étapes de la roadmap DevOps. 
 
 ---
 
