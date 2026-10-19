@@ -11,10 +11,10 @@
 | Programme          | Roadmap DevOps            |
 | Code de formation  | F01                       |
 | Intitulé           | Fondamentaux Git & GitHub |
-| Nom de l'étudiant  | À compléter               |
-| Adresse GitHub     | À compléter               |
-| Date de début      | AAAA-MM-JJ                |
-| Date de soumission | AAAA-MM-JJ                |
+| Nom de l'étudiant  | FOTSO THIERRY             |
+| Adresse GitHub     | https://github.com/pagnus406|
+| Date de début      | 12-10-2026
+| Date de soumission | 19-10-2026   |
 | Formateur          | À compléter               |
 
 ---
@@ -93,15 +93,15 @@ Sur GitHub :
 
 **Plateforme :** OpenClassrooms
 
-**Cours à suivre :** [Insérer ici le lien officiel du cours indiqué par le formateur]
+**Cours à suivre :** [https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github/exercises/4059]
 
 | Élément             | Réponse                           |
 | ------------------- | --------------------------------- |
-| Nom du cours        | À compléter                       |
-| Lien du cours       | À compléter                       |
-| Date de réalisation | À compléter                       |
-| Statut              | Non commencé / En cours / Terminé |
-| Principaux acquis   | À compléter                       |
+| Nom du cours        | Gérez du code avec Git et GitHub  |
+| Lien du cours       |   https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github  |
+| Date de réalisation | 19/10/2026                      |
+| Statut              | EN cours(93%.dernier quiz a refaire cette nuit)|
+| Principaux acquis   |comprehension de systeme de branche, utiliser les commandes de base  |
 
 ### Preuve de réalisation
 
@@ -123,51 +123,49 @@ Si une attestation officielle est disponible, vous pouvez également la joindre.
 
 Quels sont les trois éléments les plus importants que vous retenez de cette formation ?
 
-1. À compléter.
-2. À compléter.
-3. À compléter.
+1. Github/git est un outil tres important que je dois chercher a maitriser au plutot.
+2. git pull.
+3. git clone.
 
 ### B. Difficultés rencontrées
 
 Quelle difficulté avez-vous rencontrée pendant la formation et comment l'avez-vous résolue ?
 
-Réponse : À compléter.
+Réponse :j'ai eu des difficultes a push le projet sur github.A cause des fichiers mal nommees et du connexion internet instable qui faisait couper mes requetes..
 
 ### C. Retour sur la formation
 
 **Comment avez-vous trouvé cette formation ?**
 
-- [ ] Très satisfaisante
-- [ ] Satisfaisante
 - [ ] Moyenne
-- [ ] Difficile à suivre
+
 
 **Qu'avez-vous le plus apprécié ?**
 
-Réponse : À compléter.
+Réponse : c'est plutot bien explique
 
 **Quelles améliorations proposez-vous ?**
 
-Réponse : À compléter.
+Réponse : je sais pas plus d'exemples concrets?
 
 **Vous sentez-vous capable d'utiliser Git et GitHub dans un projet collaboratif ? Pourquoi ?**
 
-Réponse : À compléter.
+Réponse : pas pour le moment parceque j'ai encore beaucoup a apprendre mais dans un futur treees proche
 
 ---
 
 ## 6. Checklist avant soumission
 
-- [ ] J'ai répondu à toutes les questions.
-- [ ] J'ai complété cette fiche.
-- [ ] J'ai suivi le cours complémentaire demandé.
-- [ ] J'ai ajouté ma preuve de réalisation.
-- [ ] J'ai vérifié le nom de ma branche.
-- [ ] J'ai vérifié les fichiers et les commits envoyés.
-- [ ] J'ai poussé mes modifications sur GitHub.
-- [ ] J'ai créé ma Pull Request.
-- [ ] J'ai vérifié que ma Pull Request cible la bonne branche.
-- [ ] J'ai vérifié que mon travail ne contient aucune information confidentielle.
+- [*] J'ai répondu à toutes les questions.
+- [*] J'ai complété cette fiche.
+- [*] J'ai suivi le cours complémentaire demandé.
+- [*] J'ai ajouté ma preuve de réalisation.
+- [*] J'ai vérifié le nom de ma branche.
+- [*] J'ai vérifié les fichiers et les commits envoyés.
+- [*] J'ai poussé mes modifications sur GitHub.
+- [*] J'ai créé ma Pull Request.
+- [*] J'ai vérifié que ma Pull Request cible la bonne branche.
+- [*] J'ai vérifié que mon travail ne contient aucune information confidentielle.
 
 ---
 
@@ -196,9 +194,9 @@ Réponse : À compléter.
 
 Je confirme avoir réalisé ce travail personnellement, avoir fourni des informations exactes et avoir respecté les consignes de 13Layers Academy.
 
-**Nom :** À compléter
+**Nom :** FOTSO THIERRY
 
-**Date :** À compléter
+**Date :** 19/12/2026
 
 ---
 
