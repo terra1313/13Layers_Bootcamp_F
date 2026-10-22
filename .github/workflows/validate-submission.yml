@@ -1,0 +1,25 @@
+name: Vérification des contributions
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Contrôle des fichiers modifiés
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --depth=1 origin "$BASE_REF"
+          git diff --name-only "$BASE_REF" HEAD > changed.txt
+          echo "Fichiers modifiés :"
+          cat changed.txt
+          if grep -Eq '(^|/)(\.env|id_rsa|id_ed25519)$' changed.txt; then
+            echo "::error::Fichier potentiellement sensible détecté"
+            exit 1
+          fi
+          echo "Contrôle indicatif réussi. Revue humaine obligatoire."
