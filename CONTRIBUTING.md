@@ -1,47 +1,33 @@
 # Règles de contribution — 13Layers Academy
 
-## Organisation permanente
+## Règle absolue : ne pas toucher à `main`
 
-- Le dépôt officiel : `terra1313/13Layers_Bootcamp_F`.
-- Les formations : `formations/F01-Git-GitHub/`, `formations/F02-Linux/`, puis `formations/F03-.../`, etc.
-- **Chaque étudiant crée son propre fork.** Pas de commit direct sur `main`.
-- **Chaque étudiant rend son devoir dans le dossier du module étudié** : `formations/FXX-Nom/devoirs/prenom-nom/`, dans **son fork**.
-- Le devoir se soumet par PR vers `terra1313/13Layers_Bootcamp_F:main` ; le formateur évalue, approuve ou commente, puis peut fermer **sans fusion** pour ne pas polluer `main`.
-- Les dossiers de devoirs F01 déjà publiés ont été rangés dans F01 ; ne les renommez pas ou ne les modifiez pas.
+**Aucun étudiant ne doit pousser directement, fusionner sa PR, ni modifier les supports pédagogiques dans `main`.** Le dépôt principal publie les cours officiels ; les étudiants travaillent sur **leur propre fork**. Le formateur est seul responsable de l'intégration éventuelle de travaux dans le dépôt officiel.
 
-## Démarrage local (exemple F02)
+## Convention universelle
 
-```bash
-git clone https://github.com/VOTRE_PSEUDO/13Layers_Bootcamp_F.git
-cd 13Layers_Bootcamp_F
-git switch main
-git pull origin main
-cd formations/F02-Linux
-git switch -c Bootcamp_F02__prenom_nom
-mkdir -p devoirs/prenom-nom/preuves devoirs/prenom-nom/scripts
-```
+- Module : `formations/FXX-Nom-du-module/`
+- Branche : `Bootcamp_FXX__prenom_nom` (deux traits de soulignement après le code)
+- Dossier personnel dans votre fork : `formations/FXX-Nom-du-module/devoirs/prenom-nom/`
+- Une Pull Request par étudiant et par module vers `terra1313/13Layers_Bootcamp_F:main`.
+- **Une PR peut être approuvée puis fermée sans fusion** après évaluation.
 
-**Ordre obligatoire :** cloner le fork → entrer dans le dossier F02 → créer la branche **avant** de modifier les fichiers → réaliser le travail. Une branche Git concerne le **dépôt entier**, même lorsqu'elle est créée depuis le sous-dossier F02 : veillez donc à ne modifier que votre dossier personnel dans ce module.
+## Pour F03 « Comprendre le Web »
 
-Copiez les modèles depuis `formations/F02-Linux/templates/`. Complétez-les, ajoutez vos scripts et une capture OpenClassrooms attestant la **fin du cours et les trois quiz au vert**, sans divulguer de données sensibles.
+1. Forkez le dépôt officiel, clonez votre fork.
+2. Entrez **en local** dans `formations/F03-Comprendre-le-Web`.
+3. Créez `Bootcamp_F03__prenom_nom` **avant de changer les fichiers**.
+4. Suivez [Comprendre le Web — OpenClassrooms](https://openclassrooms.com/fr/courses/1946386-comprendre-le-web) : cours terminé et **4 quiz au vert**.
+5. Placez **uniquement les captures de preuve** dans `devoirs/prenom-nom/preuves/` sur votre fork.
+6. Poussez vers votre fork et ouvrez une PR : `[F03] Prénom Nom — Comprendre le Web`.
 
-```bash
-# Toujours depuis formations/F02-Linux, après les exercices :
-git status
-git add devoirs/prenom-nom/
-git commit -m "feat(F02): devoir Linux prenom nom"
-git push -u origin Bootcamp_F02__prenom_nom
-```
+**F03 n'a ni questionnaire, ni TP, ni script supplémentaire.** Voir les [consignes F03](formations/F03-Comprendre-le-Web/CONSIGNES_REMISE.md).
 
-Ouvrez la PR **depuis le fork**, avec le titre `[F02] Prénom Nom — Linux`. Le template PR doit être rempli.
+## Qualité et sécurité
 
-## Règles qualité et sécurité
-- Un étudiant = une branche et une PR par formation.
-- Aucune modification du questionnaire, des consignes ou du travail des autres étudiants.
-- Aucun mot de passe, token, clé SSH, donnée privée, capture de comptes sensibles.
-- Ne pas exécuter de commandes destructrices sur une machine partagée ou en production.
-- Les notes sont attribuées par le formateur, pas par une automatisation.
-- Pour F03, F04..., reproduire le même chemin et remplacer `F02` par le code du module.
+- Ne publiez aucun secret, jeton, mot de passe, clé SSH ni donnée personnelle inutile.
+- Ne modifiez pas les devoirs des autres apprenants.
+- Pour F01 et F02, les consignes existantes de ces formations restent applicables.
+- Les formateurs modifient les cours via une branche `academy/...` et une PR administrative.
 
-## Formateurs
-Toute modification d'un support pédagogique passe par une branche `academy/...` et une PR administrative séparée. **Les PR de devoirs ne se fusionnent pas dans `main`** sauf décision expresse.
+**13Layers Academy — Learn, Build, Collaborate.**
