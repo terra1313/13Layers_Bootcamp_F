@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
+cat > scripts/demo.sh
 
-echo "Bonjour 13Layers" 
+Bonjour 13Layers

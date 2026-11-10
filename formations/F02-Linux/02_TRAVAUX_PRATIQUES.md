@@ -15,7 +15,7 @@ Dans `logs/app.log`, saisissez deux lignes `ERROR`, deux `INFO` et une `WARN`. A
 
 ## TP4 — Permissions (7 pts)
 Créez `scripts/demo.sh` qui affiche `Bonjour 13Layers`. Montrez ses droits avant et après `chmod u+x`, puis exécutez-le. **Questions :** expliquez les droits `rwx` et pourquoi `chmod 777` n'est pas une pratique recommandée.
-
+|
 ## TP5 — Diagnostic Linux (7 pts)
 Exécutez `whoami`, `uname -r`, `df -h`, `free -h` et `ps aux | head`. Donnez une interprétation courte de chaque résultat, sans publier d'informations privées. **Questions :** comment examiner disque, mémoire et processus ?
 

@@ -1,2 +1,2 @@
-cat > scripts/demo.sh
-Bonjour 13Layers
+#!/bin/bash
+echo "Bonjour 13Layers"
