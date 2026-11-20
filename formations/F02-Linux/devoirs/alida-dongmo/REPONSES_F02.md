@@ -2,7 +2,7 @@
 
 **Étudiant :** DONGMO FONKEU ALIDA DUCHELLE
 **GitHub :** alidaduchelle
-**Branche :** `Bootcamp_F02__prenom_nom`
+**Branche :** `Bootcamp_F02__alida_dongmo`
 
 Répondez aux 10 questions du fichier [01_CATALOGUE_QUESTIONS.md](../../01_CATALOGUE_QUESTIONS.md) **dans vos propres mots**.
 
@@ -112,6 +112,6 @@ Il faut appliquer le principe du moindre privilege pour limiter les risques de m
 
 `#!/usr/bin/env bash` c'est la premiere ligne d'un script, il indique au systeme quel interpréteur utiliser pour executer le script
 
-Les deux taches DevOps automatisables peuvent etre:
+Les deux taches DevOps automatisables peuvent être:
  Deployer des applications
  Surveiller le reseau en collectant les informations des équipements.
