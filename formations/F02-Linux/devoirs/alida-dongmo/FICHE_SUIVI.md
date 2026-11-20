@@ -35,7 +35,14 @@ J'ai trouvé cette formation plutôt enrichissante, elle m'a permis de mieux me 
 **Ce que 13Layers Academy pourrait améliorer :**
 
 ## Soumission
-- [OUI] Branche créée avant les modifications.
-- [OUI] `git push` effectué sur mon fork.
-- [OUI] PR créée vers le dépôt officiel.
-- [OUI] Aucun secret dans les fichiers.
+
+- [ ] Branche créée avant les modifications.
+- [ ] `git push` effectué sur mon fork.
+- [ ] PR créée vers le dépôt officiel.
+- [ ] Aucun secret dans les fichiers.
+
+- [ ] Branche créée avant les modifications.
+- [ ] `git push` effectué sur mon fork.
+- [ ] PR créée vers le dépôt officiel.
+- [ ] Aucun secret dans les fichiers.
+

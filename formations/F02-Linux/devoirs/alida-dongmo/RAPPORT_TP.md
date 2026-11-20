@@ -131,6 +131,7 @@ Résultats respectifs:
 #!/usr/bin/env bash
 set -euo pipefail
 
+
 echo "Date: $(date)"
 
 echo "Utilisateur : $(whoami)"
