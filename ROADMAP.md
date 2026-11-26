@@ -1,15 +1,17 @@
 # Roadmap DevOps — 13Layers Academy
 
-| Code | Formation | Livrables exigés | État |
+| Code | Formation | Livrables | État |
 |---|---|---|---|
-| F01 | Git & GitHub | Questionnaire, preuve de cours, PR | Publié |
-| F02 | Linux & ligne de commande | Questionnaire, 6 TP, scripts, captures et PR | Publié |
-| **F03** | **Comprendre le Web** | **OpenClassrooms terminé, 4 quiz au vert, captures et PR — sans exercice supplémentaire** | **Publié** |
-| F04 | Bash scripting | À préciser | À venir |
-| F05 | Docker | À préciser | À venir |
-| F06 | CI/CD | À préciser | À venir |
-| F07 | Cloud | À préciser | À venir |
+| F01 | Git & GitHub | Questionnaire, preuve, PR | Publié |
+| F02 | Linux | Questionnaire, 6 TP, scripts, quiz, PR | Publié |
+| F03 | Comprendre le Web | Cours terminé, 4 quiz au vert, captures, PR | Publié |
+| **F04** | **Concevez votre réseau TCP/IP** | **Cours terminé, 3 quiz au vert, rapport de 10 questions, captures, PR** | **Publié** |
+| F05 | Docker | À définir | À venir |
+| F06 | CI/CD | À définir | À venir |
+| F07 | Cloud | À définir | À venir |
 
-Cours F03 obligatoire : [Comprendre le Web — OpenClassrooms](https://openclassrooms.com/fr/courses/1946386-comprendre-le-web).
+Cours F04 : [Concevez votre réseau TCP/IP — OpenClassrooms](https://openclassrooms.com/fr/courses/6944606-concevez-votre-reseau-tcp-ip). Durée indicative : environ 10 heures.
 
-Chaque module est dans `formations/FXX-...`. Les étudiants utilisent leur fork, une branche dédiée et une Pull Request ; ils n'écrivent **jamais directement dans `main`**.
+**Progression pédagogique WhatsApp :** F01 validée → accès sur demande à F02 ; F02 validée → F03 ; F03 validée → F04 ; F04 validée → F05.
+
+Les devoirs utilisent les forks personnels et des branches séparées ; les administrateurs décident des validations et des admissions.
